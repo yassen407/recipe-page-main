@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color:hsl(30, 54%, 90%);
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent{
+    background-color: white;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.child{
+    font-size: xx-large;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+.child1{
+    color: hsl(332, 51%, 32%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     
+}
+.parent2{
+    background-color:hsl(30, 54%, 90%) ;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.parent3{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.child2{
+    color: hsl(332, 51%, 32%);
+}
+.parent4{
+    list-style-type: number; 
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.child3{
+ color:hsl(332, 51%, 32%) ;   
+}
+.child4{
+    display: inline;
+    width: 50px;
+    align-items: center;
+    gap: 20px;
+    padding-right: 400px;
+}
+.child5{
+    color: hsl(14, 45%, 36%);
+    font-size: large;
+}
+.child6{
+    display: inline;
+    width: 50px;
+    align-items: center;
+    gap: 20px;
+    padding-right: 425px;
+}
+.child7{
+    color: hsl(14, 45%, 36%);
+    font-size: large;
+}
+.child8{
+    display: inline;
+    width: 50px;
+    align-items: center;
+    gap: 20px;
+    padding-right: 415px;
+}
+.child9{
+    color: hsl(14, 45%, 36%);
+    font-size: large;
+}
+.child10{
+    display: inline;
+    width: 50px;
+    align-items: center;
+    gap: 20px;
+    padding-right: 440px;
+}
+.child11{
+    color: hsl(14, 45%, 36%);
+    font-size: large;
+}
+.child0{
+    color:hsl(332, 51%, 32%) ;
+}
